@@ -5,9 +5,9 @@ import styled from "styled-components";
 export const SearchInput = () => {
   return (
     <SContainer>
-      <Input placeholder="Plase input search condition" />
+      <Input placeholder="Plase input" />
       <SButtonWrapper>
-        <PrimaryButton>TEST3</PrimaryButton>
+        <PrimaryButton>SEARCH</PrimaryButton>
       </SButtonWrapper>
     </SContainer>
   );

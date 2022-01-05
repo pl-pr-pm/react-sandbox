@@ -1,21 +1,15 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 export const Footer = () => {
-  return (
-    <SHeader>
-      <SLink to="/">HOME</SLink>
-      <SLink to="/users">USERS</SLink>
-    </SHeader>
-  );
+  return <SFotter>&copy; 2021 rito </SFotter>;
 };
 
-const SHeader = styled.header`
+const SFotter = styled.header`
   background-color: #11999e;
   color: #fff;
   text-align: center;
-  padding: 8px 0;
-`;
-
-const SLink = styled(Link)`
-  margin: 0 8px;
+  margin-top: 10px;
+  padding: 1px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 `;
